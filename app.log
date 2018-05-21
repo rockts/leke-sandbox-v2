@@ -415,3 +415,4 @@
   time_end: '20180202143725',
   trade_state: 'SUCCESS',
   cash_fee: '3' }
+02:52:02 DEBUG - debug log
