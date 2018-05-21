@@ -475,3 +475,5 @@
   out_trade_no: '20180522033647',
   product_id: 1,
   total_fee: 3 }
+03:45:45 DEBUG - appid=wx6d8ec86bd1367997&body=lekeopen&mch_id=1500299052&nonce_str=N3zBoXLsbAIlrwfqq7PkMmBw1O7qviOb&notify_url=https://sandbox.lekee.cc/wxpay/notify&out_trade_no=20180522034545&product_id=1&total_fee=3
+03:53:58 INFO - 签名： F7935596ED0BBB8437A0F9ECD5379B77
