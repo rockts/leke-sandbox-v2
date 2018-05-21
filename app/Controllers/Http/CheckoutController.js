@@ -1,8 +1,9 @@
 'use strict'
 
-const logger = use('App/Services/Logger')
-const Config = use('Config')
-const moment = use('moment')
+const logger       = use('App/Services/Logger')
+const Config       = use('Config')
+const moment       = use('moment')
+const randomString = use('randomstring')
 
 class CheckoutController {
   render ({ view }) {
@@ -30,9 +31,38 @@ class CheckoutController {
     // 商品 ID
     const product_id = 1
 
-    //
+    // 通知地址
+    const notify_url = Config.get('wxpay.notify_url')
+
+    // 随机字符
+    const nonce_str = randomString.generate(32)
+
+    let order = {
+      appid,
+      mch_id,
+      out_trade_no,
+      body,
+      total_fee,
+      product_id,
+      notify_url,
+      nonce_str
+    }
+
+    // 1. 排序
+    const sortedOrder = Object.keys(order).sort().reduce((accumulator, key) => {
+      accumulator[key] = order[key]
+      logger.debug(accumulator)
+      return accumulator
+
+    }, {})
+
+    // logger.debug(sortedOrder)
 
     return view.render('commerce.checkout')
+  }
+
+  wxPayNotify () {
+
   }
 }
 

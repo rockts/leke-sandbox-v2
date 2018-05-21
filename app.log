@@ -424,3 +424,54 @@
 03:09:46 DEBUG - debug log
 03:10:46 DEBUG - debug log
 03:10:52 DEBUG - debug log
+03:35:01 DEBUG - { appid: 'wx6d8ec86bd1367997',
+  body: 'lekeopen',
+  mch_id: '1500299052',
+  nonce_str: 'Gg0Tph7QWk3TZ52espPquaNNn1a3H1Dc',
+  notify_url: 'https://sandbox.lekee.cc/wxpay/notify',
+  out_trade_no: '20180522033501',
+  product_id: 1,
+  total_fee: 3 }
+03:35:16 DEBUG - { appid: 'wx6d8ec86bd1367997',
+  body: 'lekeopen',
+  mch_id: '1500299052',
+  nonce_str: 'usc3I53dzuu1LA7IhQOguwfMPSihdgok',
+  notify_url: 'https://sandbox.lekee.cc/wxpay/notify',
+  out_trade_no: '20180522033516',
+  product_id: 1,
+  total_fee: 3 }
+03:36:47 DEBUG - { appid: 'wx6d8ec86bd1367997' }
+03:36:47 DEBUG - { appid: 'wx6d8ec86bd1367997', body: 'lekeopen' }
+03:36:47 DEBUG - { appid: 'wx6d8ec86bd1367997',
+  body: 'lekeopen',
+  mch_id: '1500299052' }
+03:36:47 DEBUG - { appid: 'wx6d8ec86bd1367997',
+  body: 'lekeopen',
+  mch_id: '1500299052',
+  nonce_str: '0yWPvKay5DsrKbSfBtIojH0yov8cIiVB' }
+03:36:47 DEBUG - { appid: 'wx6d8ec86bd1367997',
+  body: 'lekeopen',
+  mch_id: '1500299052',
+  nonce_str: '0yWPvKay5DsrKbSfBtIojH0yov8cIiVB',
+  notify_url: 'https://sandbox.lekee.cc/wxpay/notify' }
+03:36:47 DEBUG - { appid: 'wx6d8ec86bd1367997',
+  body: 'lekeopen',
+  mch_id: '1500299052',
+  nonce_str: '0yWPvKay5DsrKbSfBtIojH0yov8cIiVB',
+  notify_url: 'https://sandbox.lekee.cc/wxpay/notify',
+  out_trade_no: '20180522033647' }
+03:36:47 DEBUG - { appid: 'wx6d8ec86bd1367997',
+  body: 'lekeopen',
+  mch_id: '1500299052',
+  nonce_str: '0yWPvKay5DsrKbSfBtIojH0yov8cIiVB',
+  notify_url: 'https://sandbox.lekee.cc/wxpay/notify',
+  out_trade_no: '20180522033647',
+  product_id: 1 }
+03:36:47 DEBUG - { appid: 'wx6d8ec86bd1367997',
+  body: 'lekeopen',
+  mch_id: '1500299052',
+  nonce_str: '0yWPvKay5DsrKbSfBtIojH0yov8cIiVB',
+  notify_url: 'https://sandbox.lekee.cc/wxpay/notify',
+  out_trade_no: '20180522033647',
+  product_id: 1,
+  total_fee: 3 }
