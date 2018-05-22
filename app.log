@@ -477,3 +477,5 @@
   total_fee: 3 }
 03:45:45 DEBUG - appid=wx6d8ec86bd1367997&body=lekeopen&mch_id=1500299052&nonce_str=N3zBoXLsbAIlrwfqq7PkMmBw1O7qviOb&notify_url=https://sandbox.lekee.cc/wxpay/notify&out_trade_no=20180522034545&product_id=1&total_fee=3
 03:53:58 INFO - 签名： F7935596ED0BBB8437A0F9ECD5379B77
+13:28:01 DEBUG - <xml><appid>wx6d8ec86bd1367997</appid><mch_id>1500299052</mch_id><out_trade_no>20180522132801</out_trade_no><body>lekeopen</body><total_fee>3</total_fee><product_id>1</product_id><notify_url>https://sandbox.lekee.cc/wxpay/notify</notify_url><nonce_str>mJQ8tYFaKiH7ZnoR8v69ZJiDZcneWsGI</nonce_str><sign>FE2B2517A8D1F0C27A2BCCC87EB4A16B</sign></xml>
+13:29:56 DEBUG - <xml><appid>wx6d8ec86bd1367997</appid><mch_id>1500299052</mch_id><out_trade_no>20180522132956</out_trade_no><body>lekeopen</body><total_fee>3</total_fee><product_id>1</product_id><notify_url>https://sandbox.lekee.cc/wxpay/notify</notify_url><nonce_str>N72mOviZayh1OWLTFT1eCo0dGL4ODyTi</nonce_str><sign>1513CD1B2AFFCA6D6BF6436253A90963</sign></xml>
