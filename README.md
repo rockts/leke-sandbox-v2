@@ -14,10 +14,10 @@ git clone git@github.com:ninghao/ninghao-sandbox-v2.git
 ```
 cd ninghao-sandbox-v2
 git branch -a
-git checkout -b wxpay-h5 remotes/origin/wxpay-h5
+git checkout -b wxpay-jsapi remotes/origin/wxpay-jsapi
 ```
 
-`wxpay-h5`，这个分支上包含的是微信支付H5课程中的扫码支付课程用的代码。
+`wxpay-jspai`，这个分支上包含的是微信公众号支付课程中用的代码。
 
 ## 3. 安装与运行
 先确定您的操作系统上，在全局范围已经安装了 `@adonisjs/cli` 这个包。然后执行下面这些命令：
