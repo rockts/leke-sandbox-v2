@@ -12,7 +12,16 @@
 
   if (modalQueryState === 'show') {
     modalQuery.modal()
+  }
 
+  const wxPay = (wxJSApiParams) => {
+    WeixinJSBridge.invoke(
+      'getBrandWCPayRequest',
+      wxJSApiParams,
+      (response) => {
+        console.log(response)
+      }
+    )
   }
 
   $('#pay').click(() => {
@@ -27,7 +36,8 @@
         if (response) {
           modalQuery.modal()
           localStorage.setItem('#modal-query', 'show')
-          window.location.href = response
+
+          wxPay(response)
         }
       },
       error: (error) => {
