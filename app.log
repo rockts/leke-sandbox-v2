@@ -1,0 +1,88 @@
+23:11:59 INFO - 请求支付 ----------------------------------
+23:11:59 DEBUG - 微信用户会话： { errcode: 40013,
+  errmsg: 'invalid appid, hints: [ req_id: i.sASA0319th50 ]' }
+23:13:57 INFO - 请求支付 ----------------------------------
+23:13:58 DEBUG - 微信用户会话： { errcode: 40013,
+  errmsg: 'invalid appid, hints: [ req_id: QS8RgA0438th48 ]' }
+23:16:37 INFO - 请求支付 ----------------------------------
+23:16:37 DEBUG - 微信用户会话： { errcode: 40013,
+  errmsg: 'invalid appid, hints: [ req_id: DlqpLa0597th48 ]' }
+23:17:44 INFO - 请求支付 ----------------------------------
+23:17:44 DEBUG - 微信用户会话： { errcode: 40013,
+  errmsg: 'invalid appid, hints: [ req_id: yzubfA0664th44 ]' }
+23:28:38 INFO - 请求支付 ------------------------
+23:28:39 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+23:42:18 INFO - 请求支付 ------------------------
+23:42:18 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+23:42:42 INFO - 请求支付 ------------------------
+23:42:43 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+23:42:50 INFO - 请求支付 ------------------------
+23:42:50 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+23:42:53 INFO - 请求支付 ------------------------
+23:42:53 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+23:42:54 INFO - 请求支付 ------------------------
+23:42:54 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+23:43:19 INFO - 请求支付 ------------------------
+23:43:20 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+23:44:13 INFO - 请求支付 ------------------------
+23:44:14 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+23:52:52 INFO - 请求支付 ------------------------
+23:52:53 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+23:53:02 INFO - 请求支付 ------------------------
+23:53:02 INFO - 请求支付 ------------------------
+23:53:02 INFO - 请求支付 ------------------------
+23:53:02 INFO - 请求支付 ------------------------
+23:53:02 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+23:53:02 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+23:53:02 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+23:53:02 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+23:53:11 INFO - 请求支付 ------------------------
+23:53:11 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+23:53:35 INFO - 请求支付 ------------------------
+23:53:35 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+23:53:39 INFO - 请求支付 ------------------------
+23:53:39 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+23:57:18 INFO - 请求支付 ------------------------
+23:57:18 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+23:57:29 INFO - 请求支付 ------------------------
+23:57:29 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+23:58:45 INFO - 请求支付 ------------------------
+23:58:46 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+23:59:38 INFO - 请求支付 ------------------------
+23:59:38 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+00:00:53 INFO - 请求支付 ------------------------
+00:00:55 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+19:38:20 INFO - 请求支付 ------------------------
+19:38:20 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+19:38:47 INFO - 请求支付 ------------------------
+19:38:48 DEBUG - { return_code: 'FAIL', return_msg: '缺少参数' }
+19:45:22 INFO - 请求支付 ------------------------
+19:45:26 DEBUG - { return_code: 'SUCCESS',
+  return_msg: 'OK',
+  appid: 'wx4dc2adda1c429dd6',
+  mch_id: '1489423332',
+  nonce_str: 'm8I4vJ2b3lQLFiAc',
+  sign: '8D59DC6E27025B9DDE0F400512BB7539',
+  result_code: 'SUCCESS',
+  prepay_id: 'wx291945265303239c3c5c857a0331034502',
+  trade_type: 'JSAPI' }
+19:45:38 WARN - 处理支付结果通知 ------------------------
+19:45:38 INFO - 支付结果： { appid: 'wx4dc2adda1c429dd6',
+  bank_type: 'CFT',
+  cash_fee: '3',
+  fee_type: 'CNY',
+  is_subscribe: 'N',
+  mch_id: '1489423332',
+  nonce_str: 'Ib6YV6k2SyLrWWusuqTg7q9EQVwnmXwx',
+  openid: 'omyEf5dujAoHUaKdfaMID5vDMUbc',
+  out_trade_no: '20180529194523',
+  result_code: 'SUCCESS',
+  return_code: 'SUCCESS',
+  sign: '5B0A6B879453E1EB334DF10D43962AD9',
+  time_end: '20180529194537',
+  total_fee: '3',
+  trade_type: 'JSAPI',
+  transaction_id: '4200000132201805290090683992' }
+19:45:38 INFO - 结果签名： 5B0A6B879453E1EB334DF10D43962AD9
+19:45:38 INFO - 自制签名： 5B0A6B879453E1EB334DF10D43962AD9
+19:45:38 DEBUG - 回复代码： SUCCESS
